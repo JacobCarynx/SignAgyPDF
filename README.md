@@ -1,16 +1,49 @@
-# React + Vite
+# SignAgy PDF
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern, fast, and secure browser-based application to upload PDF documents, draw custom mouse/touch signatures, place them across any page, and instantly download the signed PDF.
 
-Currently, two official plugins are available:
+![SignAgy PDF App](https://img.shields.org/badge/Status-Active-brightgreen)
+![License](https://img.shields.org/badge/License-MIT-blue)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🌟 Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 📄 **PDF Upload & Visual Preview**: Load multi-page PDF documents locally with real-time browser rendering.
+- ✍️ **Interactive Drawing Pad**: Smooth mouse/touch signature canvas with selectable ink colors (Black, Blue, Red).
+- 📑 **Multi-Page Signature Support**: Navigate between pages and place signatures on specific pages.
+- 🎯 **Drag-and-Drop Repositioning**: Intuitively drag signatures to align them perfectly on the document.
+- 🗑️ **Individual Signature Removal**: Easily delete any placed signature overlay before exporting.
+- 💾 **Client-Side Processing & Download**: Signatures are merged into the PDF entirely in your browser using `pdf-lib` without sending files to external servers.
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🚀 Live Access & Local Running
+
+### Local Development
+To launch and use the application locally:
+
+```bash
+# Clone the repository
+git clone git@github.com:JacobCarynx/SignAgyPDF.git
+cd SignAgyPDF
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
+```
+
+Once running, access the application locally at:
+👉 **[http://localhost:5173](http://localhost:5173)**
+
+---
+
+## 🛠️ Built With
+
+- **React** (Vite framework)
+- **PDF.js** (In-browser rendering)
+- **pdf-lib** (Client-side PDF modification)
+- **Lucide React** (Modern UI Icons)
+- **Canvas Confetti** (Completion celebrations)
